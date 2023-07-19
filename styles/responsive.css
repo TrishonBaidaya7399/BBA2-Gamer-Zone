@@ -1,0 +1,158 @@
+/* Mobile view */
+@media screen and (max-width: 576px){
+    .nav-container, .nav-items ul{
+        flex-direction: column;
+       
+    }
+    .nav-container{
+        justify-content: center;
+        padding: 40px 400px 40px 400px;
+    }
+    .nav-items ul{
+        margin-top: 30px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        /* width: 100vw; */
+        margin: 20px 190px 0px 190px;
+        background-image:none;
+    }
+    .banner-img{
+        width: 40rem;
+        height: 80%;
+
+    }
+    .banner-content{
+        text-align: center;
+        padding-left: 50%;
+        padding-right: 50%;
+        justify-content: center;
+    }
+   
+    .gamer-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin: 20px 190px 0px 190px;
+        gap: 3.12rem;
+        /* padding: 0rem 12.5rem; */
+    }
+    .gamer-img img{
+        width:700px;
+        height: 400px;
+        padding-left: auto
+        ;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .online-games{
+        /* margin: 20px 190px 0px 190px; */
+        width: 100vw;
+        padding-left: 180px;
+        padding-right: 200px;
+    }
+    .videos-card-container{
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+        gap: 30px;
+    }
+    .card{
+        padding-left: 50px;
+    }
+    .play-instant{
+        padding: 0rem ;
+        margin-left: 180px;
+    }
+    .play-instant-container{
+       flex-direction: column;
+    }
+    .play-instant-content{
+        margin-left: 180px;
+    }
+    .play-instant-content h1{
+        text-align: center;
+        }
+        .play-instant-content p{
+        text-align: center;
+        }
+        .play-instant-img{
+            height: 90%;
+            margin-left: 15.6rem;
+        }   
+        .main-img{
+            width: 30rem;
+        height: 35rem;
+        }
+        .side-img{
+            width: 14rem;
+            height: 16rem;
+            position: relative;
+            left:-7.3rem;
+            top:-10.5rem;
+        }
+        .play-instant-2{
+            display: none;
+        }
+        .careers{
+            display: none;
+        }
+        .game-links-container{
+            padding-left: 200px;
+            margin-top: 100px;
+            display: grid;
+          grid-template-columns: repeat(3,1fr);
+        }
+        .game-link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.6rem;
+            margin: 1.7rem;
+            border-radius: 3.1rem;
+            border: none;
+            transition: 0s;
+        }
+        .footer-container{
+        /* margin-left: 300px; */
+        margin-right: -380px; 
+        padding-right: 150px;
+        padding-left: 150px;
+        }
+        .footer-items ul {
+            text-align: center;
+            padding-top: 56px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            
+        }
+        .footer-icons{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+            gap: 20px;
+            
+            }
+            .fa-facebook{
+            background: none;    
+            }
+            .footer-links{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                /* grid-template-columns: repeat(2, 1fr); */
+                padding-left: 50px;
+                padding-right: 50px;
+           
+            gap: 30px; 
+         
+            }
+            .copyright{
+            
+            }
+    
+}
