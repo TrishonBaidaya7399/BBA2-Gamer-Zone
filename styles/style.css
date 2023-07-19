@@ -4,6 +4,10 @@
 }
 a{
     text-decoration: none;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
 }
 body{
     font-family: 'Work Sans', sans-serif;
@@ -288,3 +292,271 @@ font-weight: 500;
 }
 
 /*  Online games video part end */
+/* *************************************************************************************************************************** */
+/* Play instant start */
+.play-instant{
+    padding: 0px 200px 0px 400px;
+}
+.play-instant-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -250px;
+    /* gap: 260px; */
+  
+}
+.main-img{
+    width: 600px;
+height: 650px;
+}
+.side-img{
+    width: 318.5px;
+    height: 365.083px;
+    position: relative;
+    left:-150px;
+    top:-280px;
+}
+.play-instant-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+    margin-top: 25%;
+    margin-bottom: 50%;
+}
+.play-instant-content h1{
+text-align: right;
+font-size: 48px;
+font-weight: 700;
+}
+.play-instant-content p{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+width: 353px;
+
+}
+.play-instant-img{
+    height: 90%;
+    margin-left: 250px;
+}   
+/* part 2 */
+.play-instant-2{
+    padding: 0px 400px 0px 200px;
+}
+.play-instant-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -200px;
+    /* gap: 260px; */
+  
+}
+.main-img-2{
+    width: 600px;
+height: 650px;
+}
+.side-img-2{
+    width: 318.5px;
+    height: 365.083px;
+    position: relative;
+    left:430px;
+    top:-250px;
+}
+.play-instant-content-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 25%;
+    margin-bottom: 50%;
+    margin-left: 250px;
+}
+.play-instant-content-2 h1{
+text-align: left;
+font-size: 48px;
+font-weight: 700;
+}
+.play-instant-content-2 p{
+    color: #534C64;
+text-align: left;
+font-size: 18px;
+font-weight: 400;
+width: 353px;
+margin-left: -40px;
+
+}
+.play-instant-img{
+    
+    margin-left: 250px;
+}   
+
+
+/* Play instant end */
+/* ************************************************************************************************************************** */
+/* careers part start */
+.careers{
+background: #FF42A5;  
+margin-bottom: 300px;  
+padding-left: 200px;
+padding-right: 200px;
+}
+.careers-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.career-content{
+width: 50%;
+}
+.career-img{
+    width: 50%;
+}
+.career-content h1{
+    color: #FFF;
+font-size: 48px;
+font-weight: 700;
+padding-bottom: 24px;
+}
+.career-content p{
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 40px;
+}
+.career-content button{
+    padding: 21px 40px;
+    border-radius: 48px;
+background: #FFF;
+color: #FF42A5;
+font-size: 20px;
+font-weight: 600;
+border: none;
+transition: transform 0.5s;
+}
+.career-content button:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+.careers-type{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.right{
+    text-align: right;
+}
+.left, .right{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+}
+/* careers part end */
+/* ************************************************************************************************************************** */
+/* game links part start */
+
+.game-links-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -250px;
+    margin-bottom: 50px;
+}
+.game-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    margin: 27px;
+    border-radius: 50px;
+    border: none;
+    transition: 0s;
+}
+.game-link:hover{
+    cursor: pointer;
+    border: 3px solid #F948B2;
+}
+/* game links part end */
+/* ************************************************************************************************************************** */
+/* Footer */
+.footer{
+    background: #0B0223;    
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    padding-top: 126px;
+    gap: 20px;
+    color: #FFF;
+    display: flex;
+    /*  */
+
+}
+.footer-logo h1{
+    text-align: center;
+font-size: 45px;
+}
+.footer-items ul {
+    padding-top: 56px;
+    display: flex;
+    gap: 60px;
+    
+}
+.footer-items ul li a{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.footer-icons{
+color: #fff;    
+font-size: 40px;
+display: flex;
+gap: 40px;
+padding-top: 60px;
+
+}
+.fa-facebook{
+    background: blue;
+    border-radius: 50%;
+}
+#youtube{
+    color: white;
+    font-size: 40px;
+    padding-left: -5px;
+    padding-right: -10px;
+    
+}
+.footer-links{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 60px; 
+padding-top: 60px;
+}
+.footer-links a{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+padding-top: 60px;
+padding-bottom: 60px;
+}
