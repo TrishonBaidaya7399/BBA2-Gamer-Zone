@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+li{
+    list-style: none;
+}
+/* Nav part start */
+.nav{
+    background: #fff;
+   
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px 40px 240px;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.nav-items ul li a, .follow-us{
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+cursor: pointer;
+}
+.fa-youtube{
+    color: red;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fa-tiktok{
+    font-size: 20px;
+}
+.nav-items ul li button{
+    width: 262px;
+height: 56px;
+flex-shrink: 0;
+padding: 15px;
+border-radius: 8px;
+border: none;
+gap: 16px;
+}
+.nav-logo{
+    width: 86.041px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+.nav-logo h1{
+    text-align: center;
+font-size: 45px;
+font-weight: 700;
+}
+/* Nav part end */
+/* ******************************************************************************************* */
+/* Banner part start */
+.banner-container{
+    background-image: url("../images/Group\ 14.png") ;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px 0px 200px;
+    gap: 50px;
+}
+.banner-content{
+    /* width: 70%; */
+    text-align: left;
+}
+.banner-content h3{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.banner-content h1{
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner-content p i{
+    color: #F948B2;
+    font-size: 24px;
+}
+.banner-content p {
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+    transition: transform 0.5s;
+}
+.banner-content p:hover{
+    transform: scale(1.2);
+    color: #F948B2;
+    cursor: pointer;
+}
+.banner-img{
+    width: 700px;
+    height: 100%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+.btn{
+    background: #F948B2;
+    border: none;
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+transition: transform 0.5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.btn-blue{
+    background: #4EC5F7;
+    border: none;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform 0.5s;
+}
+.btn-blue:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+} 
+/* Banner part end */
+/* ************************************************************************************************************************** */
+/* We are Gamer part start */
+.we-are-gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: -5px;
+}
+.gamer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 200px;
+}
+.gamer-content{
+    text-align: right;
+}
+.gamer-content h2{
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 24px;
+}
+.gamer-content h3{
+    color: #534C64;
+    width: 520px;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+}
+.gamer-content .description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;  
+    padding-bottom: 30px;
+    width: 520px;
+}
+.purpose{
+    color: #534C64;
+font-size: 24px;
+font-weight: 500;
+padding-top: 25px;
+}
+/* We are Gamer part end */
+/* ************************************************************************************************************************* */
+/*  Online games video part start */
+.online-games{
+    padding: 0px 200px 100px 200px;
+    /* width: 100vw; */
+}
+.video-content h1{
+    padding-top: 100px;
+    color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+}
+.video-content p{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-top: 15px;
+padding-bottom: 48px;
+}
+.videos-card-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 24px;
+}
+.overlay i{
+    color: #fff;
+    font-size: 45px;
+}
+
+.overlay {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #F948B2;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 342px;
+height: 400px;
+    opacity: 0;
+    border-radius: 15px;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.60);
+
+  }
+  .card{
+    position: relative;
+  }
+  .card:hover .overlay{
+    opacity: 1;
+  }
+
+.card img{
+    padding-bottom: 24px;
+    width: 342px;
+height: 400px;
+display: block;
+height: auto;
+}
+.card p{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+
+/*  Online games video part end */
