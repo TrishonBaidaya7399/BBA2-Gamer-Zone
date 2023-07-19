@@ -267,9 +267,9 @@ height: 25rem;
     background-color: rgba(0, 0, 0, 0.60);
 
   }
-  /* .card{
+  .card{
     position: relative;
-  } */
+  }
   .card:hover .overlay{
     opacity: 1;
   }
